@@ -1,0 +1,54 @@
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #87CEEB;
+}
+
+.game-container {
+  position: relative;
+  width: 300px;
+  height: 500px;
+  border: 2px solid #333;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.score {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 1.2em;
+}
+
+#airplane {
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  transition: bottom 0.1s;
+}
+
+#obstacle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 200px;
+  background-color: green;
+}
+
+#start-button {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  font-size: 1em;
+}
